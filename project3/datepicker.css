@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-align: center;
+	
+}
+
+table {
+	text-align: center;
+	table-layout: fixed;
+    width: 270px;
+	margin: auto;
+
+	border: .5px solid black;
+	border-radius: 15px;
+	border-spacing: 0px;
+	background: white;
+	box-shadow: 3px 3px rgba(0,0,0,.3);
+
+	font-size: 1rem;
+	text-align: center;
+  	font-family: sans-serif;
+  	color: black;
+
+	cursor: default;
+}
+body {
+	background-image: url('ariinzurag.jpg');
+	font-family: 'Saira', Arial, Helvetica, sans-serif;
+	background-size: cover;
+
+}
+
+#Header {
+	border-radius: 10px;
+	height: 25px;
+	font-weight: bold;
+	background: #E4A1D7;
+}
+
+#LeftArrow {
+	border-top-left-radius: 10px;
+	cursor: pointer;
+}
+
+#RightArrow {
+	border-top-right-radius: 10px;
+	cursor: pointer;
+}
+
+#rowWeek {
+	color: #333333;
+	font-weight: bold;
+	margin: auto;
+}
+
+#OtherMonth {
+     color: #C3E5ED; 
+}
